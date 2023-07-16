@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
 
     <title>Sprint Challenge - Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
@@ -21,10 +22,21 @@
     <div>
       <!-- header -->
       <header>
-        ERGİNEER BAR VE MANGAL
+        <a href="./index.html"><h1>ERGİNEER BAR VE MANGAL</h1></a>
 
         <!-- nav -->
-        <nav>Menü Rezervasyonlar Özel Teklifler İletişim</nav>
+        <nav class="containernav">
+          <a href="./menu.html"> Menü </a>
+          <a href="./booking"> Rezervasyonlar</a>
+          <a href="./specialoffers.html"> Özel Teklifler </a>
+          <a href="./contact.html"> İletişim</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fa-brands fa-square-facebook fa-xl"></i>
+          <i class="fa-brands fa-square-twitter fa-xl"></i>
+          <i class="fa-brands fa-instagram fa-xl"></i>
+        </div>
       </header>
 
       <!-- spacer -->
@@ -54,12 +66,31 @@
 
       <!-- footer -->
       <footer>
-        <!-- email signup -->
-        Mail listemize katılın! Üye Ol
-        <!-- nav -->
-        Menü Rezervasyonlar Özel Teklifler İletişim
-        <!-- copyright -->
-        ©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+        <div class="container">
+          <form class="mailyeri">
+            <h6>Mail listemize katılın!</h6>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="E-posta Adresi"
+            />
+            <button type="submit">Üye Ol</button>
+          </form>
+
+          <div class="footersagkisim">
+            <nav class="footernav">
+              <a href="#">Menü</a>
+              <a href="#">Rezervasyonlar</a>
+              <a href="#">Özel Teklifler</a>
+              <a href="#">İletişim</a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+        </div>
       </footer>
     </div>
   </body>
