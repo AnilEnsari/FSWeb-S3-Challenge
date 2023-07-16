@@ -104,13 +104,13 @@ Ana sayfa için sağlanan tasarım dosyasını inceleyin.
 Menü sayfası için sağlanan tasarım dosyalarını inceleyin.
 ​
 
-- [ ] Ana sayfa header ve footer kopyalayıp menü sayfasına yapıştırın.
-- [ ] Header resmini menü sayfası resmiyle güncelleyin.
-- [ ] Menü için bir article öğesi ve içinde bir div kullanın; div'in class'ı "menu-container" olarak düzenleyin
-- [ ] Tüm bölümler için bir container oluşturun (örnek. yemekler ya da mezeler) class'ları "menu-section" olarak düzenleyin
-- [ ] Tüm menü elemanları için bir container oluşturun (örnek. soda ya da hamburger) ve class'larını "menu-item" olarak oluşturun
-- [ ] Tüm fiyatlara ve menü başlıklarına H4 ekleyin, her menü elemanı için 2 adet h4 olacak.
-- [ ] Tüm menü elemanı açıklamaları için p etiketi ekleyin, ikinci satırdaki açıklama da [örnek: "(v)"] kendi p etiketine sahip olacaktır.
+- [x] Ana sayfa header ve footer kopyalayıp menü sayfasına yapıştırın.
+- [x] Header resmini menü sayfası resmiyle güncelleyin.
+- [x] Menü için bir article öğesi ve içinde bir div kullanın; div'in class'ı "menu-container" olarak düzenleyin
+- [x] Tüm bölümler için bir container oluşturun (örnek. yemekler ya da mezeler) class'ları "menu-section" olarak düzenleyin
+- [x] Tüm menü elemanları için bir container oluşturun (örnek. soda ya da hamburger) ve class'larını "menu-item" olarak oluşturun
+- [x] Tüm fiyatlara ve menü başlıklarına H4 ekleyin, her menü elemanı için 2 adet h4 olacak.
+- [x] Tüm menü elemanı açıklamaları için p etiketi ekleyin, ikinci satırdaki açıklama da [örnek: "(v)"] kendi p etiketine sahip olacaktır.
       ​
       desktop için renkler ve fontlar:
       Açık text: rgb(225, 239, 230);
